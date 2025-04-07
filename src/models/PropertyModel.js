@@ -7,23 +7,23 @@ class PropertyModel {
   constructor() {
     this.properties = [];
     this.features = [
-      { id: 1, title: 'Buyers and Sellers Communicate Direct', icon: 'blue_tick_ic.svg' },
-      { id: 2, title: 'Property Lead Search', icon: 'blue_tick_ic.svg' },
-      { id: 3, title: 'Wholesaler Tool (contract to close)', icon: 'blue_tick_ic.svg' },
+      { id: 1, title: 'Source Off-Market Deals', icon: 'blue_tick_ic.svg' },
+      { id: 2, title: 'Polygon Lead Search', icon: 'blue_tick_ic.svg' },
+      { id: 3, title: 'Showcase Your Investments', icon: 'blue_tick_ic.svg' },
       { id: 4, title: 'Property Data & Comps', icon: 'blue_tick_ic.svg' },
-      { id: 5, title: 'Network & Top Lnrs Nationwide', icon: 'blue_tick_ic.svg' },
-      { id: 6, title: 'Partner Membership and More...', icon: 'blue_tick_ic.svg' },
+      { id: 5, title: 'Network - In App Calls/Messaging', icon: 'blue_tick_ic.svg' },
+      { id: 6, title: 'National Skiptracing, and More...', icon: 'blue_tick_ic.svg' },
     ];
     
     this.polygonFeatures = [
-      { id: 1, title: 'FREE Driving Search', icon: 'gradient_tick_ic.svg' },
-      { id: 2, title: 'Market Analysis/Reports', icon: 'gradient_tick_ic.svg' },
-      { id: 3, title: 'Property & Owner Contact', icon: 'gradient_tick_ic.svg' },
-      { id: 4, title: 'Vacant Properties', icon: 'gradient_tick_ic.svg' },
-      { id: 5, title: 'Tax Liens', icon: 'gradient_tick_ic.svg' },
-      { id: 6, title: 'Cash Buyers', icon: 'gradient_tick_ic.svg' },
-      { id: 7, title: 'Pre-Foreclosures', icon: 'gradient_tick_ic.svg' },
-      { id: 8, title: 'Low Equity', icon: 'gradient_tick_ic.svg' },
+      { id: 1, title: 'FSBO (Coming Soon)', icon: 'blue_tick_ic.svg' },
+      { id: 2, title: 'Retiree Homeowners', icon: 'blue_tick_ic.svg' },
+      { id: 3, title: 'Expired Listing (Coming Soon)', icon: 'blue_tick_ic.svg' },
+      { id: 4, title: 'Tax Delinquency', icon: 'blue_tick_ic.svg' },
+      { id: 5, title: 'Pre-Foreclosure', icon: 'blue_tick_ic.svg' },
+      { id: 6, title: 'Foreclosure', icon: 'blue_tick_ic.svg' },
+      { id: 7, title: 'High Equity', icon: 'blue_tick_ic.svg' },
+      { id: 8, title: 'Lis Pendens', icon: 'blue_tick_ic.svg' },
     ];
   }
 

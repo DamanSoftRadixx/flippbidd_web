@@ -13,7 +13,7 @@ FlippBidd web application built with React.
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/flippbidd_web.git
+git clone https://github.com/DamanSoftRadixx/flippbidd_web.git
 ```
 
 2. Install dependencies

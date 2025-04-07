@@ -71,18 +71,31 @@
   font-size: 1.1rem;
   justify-content: flex-start;
   width: 100%;
-  padding: 15px 20px;
+  padding: 15px 20px 15px 50px;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid #f0f0f0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .feature-icon {
   width: 30px;
   height: 30px;
-  margin-right: 15px;
-  flex-shrink: 0;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 50%;
+  padding: 0;
+  z-index: 2;
 }
 
 .feature-image-container {
@@ -143,12 +156,14 @@
   
   .feature-item {
     font-size: 1rem;
-    padding: 12px 15px;
+    padding: 12px 15px 12px 40px;
   }
   
   .feature-icon {
     width: 25px;
     height: 25px;
+    left: -12px;
+    padding: 0;
   }
   
   .feature-text {
