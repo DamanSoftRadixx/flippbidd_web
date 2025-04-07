@@ -1,0 +1,100 @@
+.polygon-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.polygon-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.polygon-title:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #0275d8;
+}
+
+.polygon-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.polygon-features {
+  flex: 1;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.polygon-feature-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.polygon-feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.polygon-feature-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.polygon-map-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.polygon-map {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+  .polygon-content {
+    flex-direction: column-reverse;
+  }
+  
+  .polygon-map-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .polygon-section {
+    padding: 60px 0;
+  }
+  
+  .polygon-title {
+    font-size: 1.8rem;
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+} 

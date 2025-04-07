@@ -1,0 +1,8 @@
+.home-page {
+  overflow-x: hidden;
+}
+ 
+/* For smooth scrolling */
+html {
+  scroll-behavior: smooth;
+} 
